@@ -1,8 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import grapesjs from "grapesjs";
 import "./styles/main.scss";
 import gjsPresetWebpage from "grapesjs-preset-webpage";
-import { useParams } from "react-router-dom"
 
 const Editor = () => {
     const [editor, setEditor] = useState(null);

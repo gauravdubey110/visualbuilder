@@ -9,8 +9,12 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/home" component={Home} />
-        <Route exct path="/editor" component={Editor} />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exct path="/editor">
+          <Editor />
+        </Route>
       </Switch>
     </Router>
   );

@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Home = () => {
-  const redirectUser = () => {
 
-  }
   return (
     <>
       <div className="container my-3">
